@@ -1,6 +1,16 @@
 p{
-    color: #000;
-    font-family: arial;
-    font-size: 16px;
-    align-self: center;
+    font-family: 'Roboto';   
+}
+
+@font-face {
+  color: #000;
+  font-family: 'Roboto'; 
+  src: url('..assets/fonts/Roboto-VariableFont_wdth,wght.ttf') format('ttf');
+  font-style: normal;
+  font-size: 16px;  
+  font-display: swap;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  align-self: center;   
 }
