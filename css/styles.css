@@ -5,7 +5,7 @@ header {
     padding-top: 1vh;
     padding-right: 8vw;
     padding-left: 8vw;
-    height: 5vh;
+    padding-bottom: 1vh;
 }
 body {
     font: 100% Changa One, Roboto;
