@@ -7,14 +7,30 @@
 </head>
 <body>
     <header>
-        <nav class="navigation_menu">
+        <picture id="header-logo" class="header_logo">
+            <source media= "(min-width: 360)"  srcset="path">
+	        <img src= "assets/vector/header-logo.svg">
+        </picture>
+        <nav id ="navigation_menu" class="navigation_menu">
              <ul class="navigation_menu_list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Story</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
+            <section class="navigation_menu_icons">
+                <picture id = "header-search-icon">
+                <source media= "(min-width: 360 px)"  srcset="path">
+	            <img src= "assets/vector/header-search-icon.svg">
+                </picture>
+                <picture id = "header-profile-icon">
+                    <source media= "(min-width: 360 px)"  srcset="path">
+	            <img src= "assets/vector/header-profile-icon.svg">
+            </picture>
+            </section>
+            
         </nav>
+        
     </header>
     <main>
 

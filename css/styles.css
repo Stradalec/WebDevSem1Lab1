@@ -2,16 +2,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2vh;
 }
-
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10vh;
+}
 .navigation_menu {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    width: 30vw;
-    height: 10vh;
-    align-items: center;
+    gap: 2vh;
 }
 .navigation_menu_list{
     display: flex;
@@ -20,7 +25,13 @@ header {
     justify-content: space-between;
     gap: 2vh;    
 }
-
+.navigation_menu_icons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vh;    
+}
 .navigation_menu_list li, .navigation_menu_list a{
     display: inline-block;
     color: #000;
