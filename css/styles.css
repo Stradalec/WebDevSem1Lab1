@@ -1,30 +1,34 @@
 header {
     display: flex;
-    align-items: center;
+    align-items: center center;
     justify-content: space-between;
-    padding-top: 0.5%;
-    padding-right: 6%;
+    padding-top: 1vh;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    height: 5vh;
+}
+body {
+    font: 100% Changa One, Roboto;
 }
 .header_logo {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
     align-items: center;
-    gap: 11vh;
+    height: 6vh;
 }
 .navigation_menu {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 2vh;
+    gap: 5vh;
 }
 .navigation_menu_list{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 3vh;    
+    justify-content: center;
+    gap: inherit;    
 }
 .navigation_menu_icons{
     display: flex;
@@ -32,6 +36,15 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 1vh;    
+}
+.main_background{
+    background-image: url("../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 80vh;
 }
 .navigation_menu_list li, .navigation_menu_list a{
     display: inline-block;
