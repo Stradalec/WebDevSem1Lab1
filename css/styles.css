@@ -2,14 +2,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2vh;
+    padding-top: 0.5%;
+    padding-right: 6%;
 }
 .header_logo {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 10vh;
+    gap: 11vh;
 }
 .navigation_menu {
     display: flex;
@@ -23,7 +24,7 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    gap: 2vh;    
+    gap: 3vh;    
 }
 .navigation_menu_icons{
     display: flex;
