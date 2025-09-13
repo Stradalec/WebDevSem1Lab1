@@ -9,6 +9,7 @@ header {
 }
 body {
     font: 100% Changa One, Roboto;
+    margin: 0;
 }
 .header_logo {
     display: flex;
@@ -51,7 +52,7 @@ body {
     color: #000;
     font-family: Roboto;
     font-style: normal;
-    font-size: 16px;  
+    font-size: 1em;  
     font-display: swap;
     line-height: 100%;
     font-weight: 400;
@@ -60,19 +61,29 @@ body {
     justify-content: space-between;      
 }
 .left_side{
-    padding-left: 10vw;    
+    padding-left: 5vw;
+    padding-top: 2vh;    
     display: flex;
     text-align: left;
     justify-content: space-between;
-    font-size: 22px;  
+    font-size: 1.5em;
+    margin: 0;  
 }
 .left_side_header{
-    padding-left: 10vw;
-    padding-top: 12vh;
+    padding-left: 5vw;
+    padding-top: 18vh;
     display: inherit;
     text-align: inherit;
     justify-content: inherit;
-    font-size: 40px;
+    font-size: 6.5em;
+    margin: 0;
+}
+.left_side_button {
+    background-color: #8A53FF;
+    font-size: 0.8em;
+    color: #ffff;
+    border-radius: 0.15em;
+    padding: 0.5em 1em;
     margin: 0;
 }
 
