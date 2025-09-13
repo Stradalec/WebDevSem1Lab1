@@ -65,9 +65,10 @@ body {
     padding-top: 2vh;    
     display: flex;
     text-align: left;
-    justify-content: space-between;
+    justify-content: left;
     font-size: 1.5em;
-    margin: 0;  
+    margin: 0;
+    gap: 1vw;
 }
 .left_side_header{
     padding-left: 5vw;
@@ -84,6 +85,6 @@ body {
     color: #ffff;
     border-radius: 0.15em;
     padding: 0.5em 1em;
-    margin: 0;
+    margin: 0; 
 }
 
