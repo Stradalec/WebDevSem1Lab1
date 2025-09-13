@@ -8,7 +8,7 @@ header {
     padding-bottom: 1vh;
 }
 body {
-    font: 100% Changa One, Roboto;
+    font: 100%  Roboto;
     margin: 0;
 }
 .header_logo {
@@ -47,7 +47,7 @@ body {
     width: 100vw;
     height: 80vh;
 }
-.navigation_menu_list li, .navigation_menu_list a{
+.navigation_menu_list li, .navigation_menu_list a, .split_screen p{
     display: inline-block;
     color: #000;
     font-family: Roboto;
@@ -76,8 +76,9 @@ body {
     display: inherit;
     text-align: inherit;
     justify-content: inherit;
-    font-size: 6em;
+    font-size: 4em;
     margin: 0;
+    font-family: Changa One;
 }
 .split_screen_button {
     background-color: #8A53FF;
