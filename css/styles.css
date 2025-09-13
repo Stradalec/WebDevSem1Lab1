@@ -112,4 +112,40 @@ body {
     margin: 0;
     outline: none; 
 }
+.middle_style {  
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: center;
+    gap: 1vw;
+}
 
+.middle_style_head {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0;
+    font-family: Changa One;
+}
+
+.middle_grid {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2vw;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.middle_grid img {
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}
