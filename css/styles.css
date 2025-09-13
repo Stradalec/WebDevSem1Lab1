@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 8vh;
 }
 .navigation_menu {
     display: flex;
@@ -60,8 +60,8 @@ body {
     text-decoration: none;
     justify-content: space-between;      
 }
-.left_side{
-    padding-left: 5vw;
+.split_screen{
+    padding-left: 8vw;
     padding-top: 2vh;    
     display: flex;
     text-align: left;
@@ -70,16 +70,16 @@ body {
     margin: 0;
     gap: 1vw;
 }
-.left_side_header{
-    padding-left: 5vw;
+.split_screen_header{
+    padding-left: 8vw;
     padding-top: 18vh;
     display: inherit;
     text-align: inherit;
     justify-content: inherit;
-    font-size: 6.5em;
+    font-size: 6em;
     margin: 0;
 }
-.left_side_button {
+.split_screen_button {
     background-color: #8A53FF;
     font-size: 0.8em;
     color: #ffff;
