@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6vh;
+    height: 7vh;
 }
 .navigation_menu {
     display: flex;
@@ -59,12 +59,20 @@ body {
     text-decoration: none;
     justify-content: space-between;      
 }
-.left_side {
-    padding-left: 10vw;
-    padding-top: 15vh;
+.left_side{
+    padding-left: 10vw;    
     display: flex;
-    align-items: center;
-    justify-content: space-between;;
-    gap: 1vh;   
+    text-align: left;
+    justify-content: space-between;
+    font-size: 22px;  
+}
+.left_side_header{
+    padding-left: 10vw;
+    padding-top: 12vh;
+    display: inherit;
+    text-align: inherit;
+    justify-content: inherit;
+    font-size: 40px;
+    margin: 0;
 }
 
