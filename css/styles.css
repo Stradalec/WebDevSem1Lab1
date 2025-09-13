@@ -36,7 +36,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    gap: 1vh;    
+    gap: 1vh;  
 }
 .main_background{
     background-image: url("../assets/images/background.jpg");
@@ -60,6 +60,19 @@ body {
     text-decoration: none;
     justify-content: space-between;      
 }
+.split_screen a {
+    display: inline-block;
+    color: #8A53FF;
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 1em;  
+    font-display: swap;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-decoration: none;
+    justify-content: space-between;
+}
 .split_screen{
     padding-left: 8vw;
     padding-top: 2vh;    
@@ -77,6 +90,16 @@ body {
     text-align: inherit;
     justify-content: inherit;
     font-size: 4em;
+    margin: 0;
+    font-family: Changa One;
+}
+.split_screen_header_smaller {
+    padding-left: 8vw;
+    padding-top: 2vh;
+    display: inherit;
+    text-align: inherit;
+    justify-content: inherit;
+    font-size: 2em;
     margin: 0;
     font-family: Changa One;
 }
