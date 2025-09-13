@@ -59,4 +59,12 @@ body {
     text-decoration: none;
     justify-content: space-between;      
 }
+.left_side {
+    padding-left: 10vw;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    gap: 1vh;   
+}
 
