@@ -240,3 +240,26 @@ body {
   overflow: hidden;
   border-radius: 0.15em;
 }
+.split_screen_noflex_small {
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 1em;
+  margin: 0;
+}
+.split_screen_noflex_small picture  {   
+  object-fit: cover;
+  align-self: center;
+  display: block;
+  margin: 0;
+  width: 20vw;
+  height: 20vh;
+}
+.split_screen_noflex_small img {
+  width: 15%;
+  height: 15%;
+  object-fit: contain; 
+  display: block;
+}
+
