@@ -44,11 +44,11 @@
           <button type="button" value="button" class="split_screen_button">
             Share your story
           </button>
-          <picture class="navigation_menu_icons">
+          <picture>
             <source media="(min-width: 360 px)" srcset="path" />
-            <img src="assets/vector/hero-player.svg" alt="Watch highlights" />
-            <figcaption>Watch highlights</figcaption>
           </picture>
+          <img src="assets/vector/hero-player.svg" alt="Watch highlights" />
+          <figcaption>Watch highlights</figcaption>
         </section>
       </section>
       <section class="header_logo"></section>
@@ -157,7 +157,9 @@
               <option value="Something else">Something else</option>
             </select>
             <br />
-            <textarea rows="5" cols="45" name="text" class="form_element">Describe what kind of photos you want to focus on </textarea>
+            <textarea rows="5" cols="45" name="text" class="form_element">
+Describe what kind of photos you want to focus on </textarea
+            >
             <br />
             <input type="submit" , value="Submit" class="split_screen_button" />
             <br />
@@ -170,28 +172,31 @@
       <section class="middle_style">
         <h1 class="middle_style_head">Recent story entries</h1>
       </section>
-      <section class="split_screen_noflex">
-        <picture>
-          <source media="(min-width: 360 px)" srcset="path" />
-          <img src="assets/images/mountain.jpg" alt="mountain" />
-        </picture>
-        <section class="split_screen">
-          <section>
-            <h1 class="split_screen_header_smaller_nopadding">
-              Zermatt, Switzerland
-            </h1>
-            <p class="split_screen_noflex">
-              Share your favorite travel destination and we will <br />
-              feature it in our next blog!
-            </p>
-          </section>
-            <picture class="split_screen_noflex_small">
+      <section class="split_screen_second">
+        <section>
+          <picture>
+            <source media="(min-width: 360 px)" srcset="path" />
+            <img src="assets/images/mountain.jpg" alt="mountain" />
+          </picture>
+          <section class="split_screen_nopadding">
+            <section>
+              <h1 class="split_screen_header_smaller_nopadding">
+                Zermatt, Switzerland
+              </h1>
+              <p class="split_screen_nopadding">
+                Marvel on the beauty of the iconic Matterhorn. Find the best
+                <br />
+                places to stay that has the best views of this peak...
+              </p>
+            </section>
+            <picture class="split_screen_nopadding">
               <source media="(min-width: 360 px)" srcset="path" />
               <img
                 src="assets/vector/video_player.svg"
                 alt="Watch highlights"
               />
             </picture>
+          </section>
         </section>
       </section>
     </main>
