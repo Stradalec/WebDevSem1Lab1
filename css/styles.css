@@ -49,7 +49,8 @@ body {
 }
 .navigation_menu_list li,
 .navigation_menu_list a,
-.split_screen p {
+.split_screen p,
+.split_screen_noflex p {
   display: inline-block;
   color: #000;
   font-family: Roboto;
@@ -136,7 +137,7 @@ body {
   justify-content: space-between;
 }
 
-.middle_style_header_smaller {
+.middle_style_header_smaller, .split_screen_noflex h1 {
   padding-top: 2vh;
   display: inherit;
   text-align: inherit;
@@ -183,4 +184,37 @@ body {
   height: 60vh;
   overflow: hidden;
   border-radius: 0.15em;
+}
+
+.split_screen_header_smaller_nopadding {
+  display: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 1.2em;
+  margin: 0;
+  font-family: Changa One;
+}
+.split_screen_noflex {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 1em;
+  margin: 0;
+  gap: 1vw;
+  border-radius: 0.15em;
+}
+
+.form_element {
+  padding-left: 0.5vw;
+  width: 80%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: left center;
+  justify-content: center;
+  font-size: 1em;
+  margin: 0 auto;
+  border-radius: 0.15em;
+  display: block;
+  box-sizing: border-box;
 }
