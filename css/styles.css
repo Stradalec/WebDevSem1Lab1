@@ -120,6 +120,29 @@ body {
     justify-content: center;
     gap: 1vw;
 }
+.middle_style_colored {
+    display: inline-block;
+    color: #8A53FF;
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 1em;  
+    font-display: swap;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.middle_style_header_smaller {
+    padding-top: 2vh;
+    display: inherit;
+    text-align: inherit;
+    justify-content: inherit;
+    font-size: 2em;
+    margin: 0;
+    font-family: Changa One;
+}
 
 .middle_style_head {
     display: flex;
@@ -133,6 +156,7 @@ body {
 .middle_grid {
   padding-left: 8vw;
   padding-right: 8vw;
+   margin: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2vw;
@@ -145,7 +169,7 @@ body {
   text-align: center;
   margin: 0;
   width: 20vw;
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
 }
 .middle_grid img {
