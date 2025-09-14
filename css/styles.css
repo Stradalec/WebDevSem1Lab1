@@ -7,6 +7,15 @@ header {
   padding-left: 8vw;
   padding-bottom: 1vh;
 }
+footer {
+  display: flex;
+  align-items: center center;
+  justify-content: space-between;
+  padding-top: 1vh;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  padding-bottom: 1vh;
+}
 body {
   font: 100% Roboto;
   margin: 0;
