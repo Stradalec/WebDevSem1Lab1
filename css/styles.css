@@ -1,162 +1,164 @@
 header {
-    display: flex;
-    align-items: center center;
-    justify-content: space-between;
-    padding-top: 1vh;
-    padding-right: 8vw;
-    padding-left: 8vw;
-    padding-bottom: 1vh;
+  display: flex;
+  align-items: center center;
+  justify-content: space-between;
+  padding-top: 1vh;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  padding-bottom: 1vh;
 }
 body {
-    font: 100%  Roboto;
-    margin: 0;
+  font: 100% Roboto;
+  margin: 0;
 }
 .header_logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
 }
 .navigation_menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 5vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5vh;
 }
-.navigation_menu_list{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: inherit;    
+.navigation_menu_list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: inherit;
 }
-.navigation_menu_icons{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1vh;  
+.navigation_menu_icons {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vh;
 }
-.main_background{
-    background-image: url("../assets/images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 80vh;
+.main_background {
+  background-image: url("../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 80vh;
 }
-.navigation_menu_list li, .navigation_menu_list a, .split_screen p{
-    display: inline-block;
-    color: #000;
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 1em;  
-    font-display: swap;
-    line-height: 100%;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-decoration: none;
-    justify-content: space-between;      
+.navigation_menu_list li,
+.navigation_menu_list a,
+.split_screen p {
+  display: inline-block;
+  color: #000;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 1em;
+  font-display: swap;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+  justify-content: space-between;
 }
 .split_screen a {
-    display: inline-block;
-    color: #8A53FF;
-    font-family: Roboto;
-    font-style: bold;
-    font-size: 1em;  
-    font-display: swap;
-    line-height: 100%;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-decoration: none;
-    justify-content: space-between;
+  display: inline-block;
+  color: #8a53ff;
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 1em;
+  font-display: swap;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+  justify-content: space-between;
 }
-.split_screen{
-    padding-left: 8vw;
-    padding-top: 2vh;    
-    display: flex;
-    text-align: left;
-    justify-content: left;
-    font-size: 1.5em;
-    margin: 0;
-    gap: 1vw;
+.split_screen {
+  padding-left: 8vw;
+  padding-top: 2vh;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  font-size: 1.5em;
+  margin: 0;
+  gap: 1vw;
 }
-.split_screen_header{
-    padding-left: 8vw;
-    padding-top: 18vh;
-    display: inherit;
-    text-align: inherit;
-    justify-content: inherit;
-    font-size: 4em;
-    margin: 0;
-    font-family: Changa One;
+.split_screen_header {
+  padding-left: 8vw;
+  padding-top: 18vh;
+  display: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 4em;
+  margin: 0;
+  font-family: Changa One;
 }
 .split_screen_header_smaller {
-    padding-left: 8vw;
-    padding-top: 2vh;
-    display: inherit;
-    text-align: inherit;
-    justify-content: inherit;
-    font-size: 2em;
-    margin: 0;
-    font-family: Changa One;
+  padding-left: 8vw;
+  padding-top: 2vh;
+  display: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 2em;
+  margin: 0;
+  font-family: Changa One;
 }
 .split_screen_button {
-    background-color: #8A53FF;
-    font-size: 0.8em;
-    color: #ffff;
-    border-radius: 0.15em;
-    padding: 0.5em 1em;
-    margin: 0;
-    outline: none; 
+  background-color: #8a53ff;
+  font-size: 0.8em;
+  color: #ffff;
+  border-radius: 0.15em;
+  padding: 0.5em 1em;
+  margin: 0;
+  outline: none;
 }
-.middle_style {  
-    display: flex;
-    text-align: center;
-    font-size: 1.5em;
-    margin: 0;
-    justify-content: center;
-    gap: 1vw;
+.middle_style {
+  display: flex;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  justify-content: center;
+  gap: 1vw;
 }
 .middle_style_colored {
-    display: inline-block;
-    color: #8A53FF;
-    font-family: Roboto;
-    font-style: bold;
-    font-size: 1em;  
-    font-display: swap;
-    line-height: 100%;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-decoration: none;
-    justify-content: space-between;
+  display: inline-block;
+  color: #8a53ff;
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 1em;
+  font-display: swap;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+  justify-content: space-between;
 }
 
 .middle_style_header_smaller {
-    padding-top: 2vh;
-    display: inherit;
-    text-align: inherit;
-    justify-content: inherit;
-    font-size: 2em;
-    margin: 0;
-    font-family: Changa One;
+  padding-top: 2vh;
+  display: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 2em;
+  margin: 0;
+  font-family: Changa One;
 }
 
 .middle_style_head {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 2em;
-    margin: 0;
-    font-family: Changa One;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+  margin: 0;
+  font-family: Changa One;
 }
 
 .middle_grid {
   padding-left: 8vw;
   padding-right: 8vw;
-   margin: 0;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2vw;
@@ -176,7 +178,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display:flex;
+  display: flex;
   width: 20vw;
   height: 60vh;
   overflow: hidden;
