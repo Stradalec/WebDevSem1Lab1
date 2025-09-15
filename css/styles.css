@@ -1,31 +1,17 @@
-header {
+header, footer {
   display: flex;
-  align-items: center center;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-right: 8vw;
   padding-left: 8vw;
-  padding-bottom: 1vh;
-}
-footer {
-  display: flex;
-  align-items: center center;
-  justify-content: space-between;
-  padding-top: 1vh;
-  padding-right: 8vw;
-  padding-left: 8vw;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 }
 body {
   font: 100% Roboto;
-  margin: 0;
 }
-.header_logo {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  height: 8vh;
+* {
+  margin: 0;
 }
 .navigation_menu {
   display: flex;
@@ -66,62 +52,57 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-size: 1em;
-  font-display: swap;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
   text-decoration: none;
-  justify-content: space-between;
 }
 .split_screen a {
   display: inline-block;
   color: #8a53ff;
   font-family: Roboto;
-  font-style: bold;
   font-size: 1em;
-  font-display: swap;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
   text-decoration: none;
-  justify-content: space-between;
+}
+
+.split_screen,
+.split_screen_nopadding,
+.split_screen_header,
+.split_screen_header_smaller,
+.split_screen_noflex,
+.split_screen_second {
+  padding-left: 8vw;
+  display: flex;
+  text-align: left;
+  margin: 0;
 }
 .split_screen {
-  padding-left: 8vw;
   padding-top: 2vh;
   display: flex;
-  text-align: left;
   justify-content: space-between;
   font-size: 1.5em;
-  margin: 0;
 }
 .split_screen_nopadding {
+  padding-left: 0vw;
   padding-top: 2vh;
-  display: flex;
-  text-align: left;
   justify-content: center;
   font-size: 1.5em;
-  margin: 0;
   gap: 1vw;
 }
 .split_screen_header {
-  padding-left: 8vw;
   padding-top: 18vh;
-  display: inherit;
-  text-align: inherit;
-  justify-content: inherit;
+  justify-content: left;
   font-size: 4em;
-  margin: 0;
   font-family: Changa One;
 }
 .split_screen_header_smaller {
-  padding-left: 8vw;
   padding-top: 2vh;
-  display: inherit;
   text-align: inherit;
   justify-content: inherit;
   font-size: 1.5em;
-  margin: 0;
   font-family: Changa One;
 }
 .split_screen_button {
@@ -145,14 +126,11 @@ body {
   display: inline-block;
   color: #8a53ff;
   font-family: Roboto;
-  font-style: bold;
   font-size: 1em;
-  font-display: swap;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
   text-decoration: none;
-  justify-content: space-between;
 }
 
 .middle_style_header_smaller,
@@ -219,7 +197,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 30vw;
-  height: 5vh;
+  height: 10vh;
   overflow: hidden;
   align-items: center;
 }
@@ -228,7 +206,7 @@ body {
   object-fit: contain;
   display: flex;
   width: 5vw;
-  height: 5vh;
+  height: 7vh;
   overflow: hidden;
   border-radius: 0.15em;
 }
@@ -258,13 +236,11 @@ body {
   font-family: Changa One;
 }
 .split_screen_noflex {
-  display: flex;
-  text-align: left;
+  padding-left: 0vw;
   justify-content: space-between;
   flex-direction: column;
   align-items: flex-start;
   font-size: 1em;
-  margin: 0;
   gap: 1vw;
   border-radius: 0.15em;
 }
@@ -345,13 +321,9 @@ body {
 }
 
 .split_screen_second {
-  padding-left: 8vw;
   padding-top: 2vh;
-  display: flex;
-  text-align: left;
   justify-content: left;
   font-size: 1.5em;
-  margin: 0;
   gap: 1vw;
 }
 
@@ -361,11 +333,9 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-size: 0.6em;
-  font-display: swap;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
   text-decoration: none;
-  justify-content: space-between;
 }
 
