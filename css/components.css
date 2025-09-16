@@ -1,0 +1,185 @@
+.navigation_menu_list li,
+.navigation_menu_list a,
+.split_screen p,
+.split_screen_noflex p,
+.split_screen_nopadding p,
+.split_screen a {
+  display: inline-block;
+  color: #000;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+
+.split_screen_nopadding p {
+  font-size: 0.6em;
+}
+
+.split_screen a {
+  color: #8a53ff;
+}
+
+.split_screen,
+.split_screen_nopadding,
+.split_screen_header,
+.split_screen_header_smaller,
+.split_screen_noflex,
+.split_screen_second {
+  padding-left: 8vw;
+  display: flex;
+  text-align: left;
+  margin: 0;
+}
+
+.split_screen {
+  padding-top: 2vh;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+.split_screen_nopadding {
+  padding-left: 0vw;
+  padding-top: 2vh;
+  justify-content: center;
+  font-size: 1.5em;
+  gap: 1vw;
+}
+.split_screen_header {
+  padding-top: 18vh;
+  justify-content: left;
+  font-size: 4em;
+  font-family: Changa One;
+}
+.split_screen_header_smaller {
+  padding-top: 2vh;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 1.5em;
+  font-family: Changa One;
+}
+.split_screen_button {
+  background-color: #8a53ff;
+  font-size: 0.8em;
+  color: #ffff;
+  border-radius: 0.15em;
+  padding: 0.5em 1em;
+  margin: 0;
+  outline: none;
+}
+.middle_style {
+  display: flex;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  justify-content: center;
+  gap: 1vw;
+}
+.middle_style_colored {
+  display: inline-block;
+  color: #8a53ff;
+  font-family: Roboto;
+  font-size: 1em;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+
+.middle_style_header_smaller,
+.split_screen_noflex h1,
+.middle_style_head {
+  display: flex;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 2em;
+  margin: 0;
+  font-family: Changa One;
+}
+
+.middle_style_head {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+
+.split_screen_header_smaller_nopadding {
+  display: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  font-size: 1.2em;
+  margin: 0;
+  font-family: Changa One;
+}
+
+.split_screen_noflex {
+  padding-left: 0vw;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1em;
+  gap: 1vw;
+  border-radius: 0.15em;
+}
+.split_screen_noflex picture,
+.split_screen_second picture {
+  object-fit: cover;
+  display: flex;
+  width: 35vw;
+  height: 55vh;
+  border-radius: 0.15em;
+}
+.split_screen_smaller {
+  object-fit: cover;
+  display: flex;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 0.15em;
+}
+.split_screen_noflex_small {
+  padding-top: 4vh;
+  padding-left: 4vw;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  margin: 0;
+}
+.split_screen_noflex_small picture,
+.split_screen_nopadding picture {
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  width: 40vw;
+  height: 40vh;
+}
+
+.split_screen_noflex_small img,
+.split_screen_nopadding img {
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+  display: block;
+}
+
+.split_screen_image {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  font-size: 1.5em;
+  margin: 0;
+  gap: 1vw;
+  object-fit: cover;
+  display: flex;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 0.15em;
+}
+
+.split_screen_second {
+  padding-top: 2vh;
+  justify-content: left;
+  font-size: 1.5em;
+  gap: 1vw;
+}

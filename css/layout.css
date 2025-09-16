@@ -1,0 +1,26 @@
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 8vw;
+}
+.space {
+  height: 8vh;
+}
+
+.navigation_menu,
+.navigation_menu_list,
+.navigation_menu_icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5vh;
+}
+.navigation_menu_list {
+  justify-content: center;
+}
+.navigation_menu_icons {
+  gap: 1vh;
+}
