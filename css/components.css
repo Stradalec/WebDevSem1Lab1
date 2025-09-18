@@ -210,9 +210,16 @@
 
 .split_screen_text {
   padding-right: 8vw;
+  flex-direction: column;
 }
 
 .split_screen_text a {
   color: #000;
   font-size: 1.5em;
+}
+.split_screen_text h3 {
+  color: #000;
+  font-size: 1.5em;
+  font-family: Roboto;
+  font-style: normal;
 }
