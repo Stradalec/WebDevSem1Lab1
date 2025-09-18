@@ -19,7 +19,7 @@
   font-size: 0.6em;
 }
 
-.split_screen a {
+.split_screen a, .split_screen_noflex a {
   color: #8a53ff;
 }
 
@@ -28,7 +28,8 @@
 .split_screen_header,
 .split_screen_header_smaller,
 .split_screen_noflex,
-.split_screen_second {
+.split_screen_second,
+.split_screen_right {
   padding-left: 8vw;
   display: flex;
   text-align: left;
@@ -182,4 +183,16 @@
   justify-content: left;
   font-size: 1.5em;
   gap: 1vw;
+}
+
+.split_screen_right {
+  flex-direction: row;
+  justify-content: right;
+  height: 10vh;
+  width: 40vw;
+  gap: 1vw;
+}
+.split_screen_right img {
+  height: 8vh;
+  border-radius: 2em;
 }
