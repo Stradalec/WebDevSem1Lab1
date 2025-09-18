@@ -196,3 +196,12 @@
   height: 8vh;
   border-radius: 2em;
 }
+
+.split_screen video {
+  padding-left: 8vw;
+  justify-content: center;
+  width: 70vw;
+  height: 70vh;
+  object-fit: cover; 
+}
+
