@@ -3,7 +3,8 @@
 .split_screen p,
 .split_screen_noflex p,
 .split_screen_nopadding p,
-.split_screen a {
+.split_screen a,
+.split_screen_text a {
   display: inline-block;
   color: #000;
   font-family: Roboto;
@@ -19,7 +20,8 @@
   font-size: 0.6em;
 }
 
-.split_screen a, .split_screen_noflex a {
+.split_screen a,
+.split_screen_noflex a {
   color: #8a53ff;
 }
 
@@ -29,7 +31,8 @@
 .split_screen_header_smaller,
 .split_screen_noflex,
 .split_screen_second,
-.split_screen_right {
+.split_screen_right,
+.split_screen_text {
   padding-left: 8vw;
   display: flex;
   text-align: left;
@@ -202,6 +205,14 @@
   justify-content: center;
   width: 70vw;
   height: 70vh;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
+.split_screen_text {
+  padding-right: 8vw;
+}
+
+.split_screen_text a {
+  color: #000;
+  font-size: 1.5em;
+}
