@@ -73,6 +73,15 @@
   margin: 0;
   outline: none;
 }
+.split_screen_button_alternative {
+  background-color: #8a53ff;
+  font-size: 0.8em;
+  color: #ffff;
+  border-radius: 0.15em;
+  padding: 0.5em 0.5em;
+  margin: 0;
+  outline: none;
+}
 .middle_style {
   display: flex;
   text-align: center;
@@ -150,6 +159,19 @@
   font-size: 1em;
   margin: 0;
 }
+.picture_column {
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-left: 2vw;
+  width: 15%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1em;
+  margin: 0;
+  gap: 1vw;
+}
 .split_screen_noflex_small picture,
 .split_screen_nopadding picture {
   object-fit: cover;
@@ -199,7 +221,10 @@
   height: 8vh;
   border-radius: 2em;
 }
-
+.picture_column img {
+  height: 27vh;
+  width: 20vw;
+}
 .split_screen video {
   padding-left: 8vw;
   justify-content: center;
@@ -214,8 +239,9 @@
 }
 
 .split_screen_text a {
+  padding-right: 2vw;
   color: #000;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .split_screen_text h3 {
   color: #000;
