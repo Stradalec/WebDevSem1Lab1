@@ -63,7 +63,7 @@
   object-fit: contain;
   display: flex;
   width: 5vw;
-  height: 7vh;
+  height: 5vh;
   overflow: hidden;
   border-radius: 0.15em;
 }
