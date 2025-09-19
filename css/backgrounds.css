@@ -16,3 +16,13 @@
   background-image: url("../assets/images/join-bg.png");
   height: 110vh;
 }
+
+@media (max-width: 480px) {
+  .main_background {
+  background-image: url("../assets/images/background.jpg");
+  height: 50vh;
+}
+.join_background {
+    height: 70vh;
+  }
+}

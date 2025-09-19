@@ -82,7 +82,7 @@
   margin: 0;
   outline: none;
 }
-.middle_style {
+.screen_center {
   display: flex;
   text-align: center;
   font-size: 1.5em;
@@ -90,7 +90,7 @@
   justify-content: center;
   gap: 1vw;
 }
-.middle_style_colored {
+.screen_center_colored {
   display: inline-block;
   color: #8a53ff;
   font-family: Roboto;
@@ -101,9 +101,9 @@
   text-decoration: none;
 }
 
-.middle_style_header_smaller,
+.screen_center_header_smaller,
 .split_screen_noflex h1,
-.middle_style_head {
+.screen_center_head {
   display: flex;
   text-align: inherit;
   justify-content: inherit;
@@ -112,7 +112,7 @@
   font-family: Changa One;
 }
 
-.middle_style_head {
+.screen_center_head {
   text-align: center;
   justify-content: center;
   padding-bottom: 2vh;
@@ -248,4 +248,46 @@
   font-size: 1.5em;
   font-family: Roboto;
   font-style: normal;
+}
+
+@media (max-width: 480px) {
+  .navigation_menu_list li,
+  .navigation_menu_list a,
+  .split_screen p,
+  .split_screen_noflex p,
+  .split_screen_nopadding p,
+  .split_screen a,
+  .split_screen_text a {
+    font-size: 0.8em;
+  }
+
+  .split_screen_header {
+    font-size: 1.5em;
+    padding-top: 5vh;
+  }
+
+  .split_screen,
+  .split_screen_nopadding,
+  .split_screen_noflex,
+  .split_screen_second,
+  .split_screen_right,
+  .split_screen_text {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1em;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .split_screen_noflex picture,
+  .split_screen_second picture {
+    width: 100vw;
+    height: auto;
+  }
+
+  .picture_column {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
 }
