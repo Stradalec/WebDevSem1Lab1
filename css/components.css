@@ -159,19 +159,7 @@
   font-size: 1em;
   margin: 0;
 }
-.picture_column {
-  flex-direction: column;
-  padding-top: 2vh;
-  padding-left: 2vw;
-  width: 15%;
-  height: 20vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  font-size: 1em;
-  margin: 0;
-  gap: 0.5vw;
-}
+
 .split_screen_noflex_small picture,
 .split_screen_nopadding picture {
   object-fit: cover;
@@ -189,19 +177,6 @@
   display: block;
 }
 
-.split_screen_image {
-  display: flex;
-  text-align: left;
-  justify-content: left;
-  font-size: 1.5em;
-  margin: 0;
-  gap: 1vw;
-  object-fit: cover;
-  display: flex;
-  width: 20vw;
-  height: 40vh;
-  border-radius: 0.15em;
-}
 
 .split_screen_second {
   padding-top: 2vh;
@@ -290,4 +265,24 @@
     height: auto;
     padding-left: 0;
   }
+}
+
+.split_screen picture,
+.split_screen_second picture {
+  max-width: 50%;
+  max-height: 100vh; 
+  display: block;
+  overflow: hidden;
+}
+
+.split_screen_second picture {
+  max-width: 70%;
+}
+
+.split_screen picture img
+.split_screen_second img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 0.15em; 
 }
