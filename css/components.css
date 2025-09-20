@@ -212,7 +212,7 @@
 .split_screen video {
   padding-left: 8vw;
   justify-content: center;
-  width: 70vw;
+  width: 72vw;
   height: 70vh;
   object-fit: cover;
 }
