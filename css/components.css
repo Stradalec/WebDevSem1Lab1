@@ -274,8 +274,7 @@
     gap: 1vh;
   }
 
-  .split_screen_noflex picture,
-  .split_screen_second picture {
+  .split_screen_noflex picture{
     width: 100vw;
     height: auto;
   }
