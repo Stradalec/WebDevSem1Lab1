@@ -8,13 +8,11 @@
 .split_screen_text_uniq a {
   display: inline-block;
   color: #000;
-  font-family: Roboto;
   font-style: normal;
   font-size: 1em;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
-  text-decoration: none;
 }
 
 .split_screen_nopadding p {
@@ -100,11 +98,10 @@
   line-height: 100%;
   font-weight: 400;
   letter-spacing: 0%;
-  text-decoration: none;
 }
 
 .screen_center_header_smaller,
-.split_screen_noflex h1,
+.split_screen_noflex h2,
 .screen_center_head {
   display: flex;
   text-align: inherit;
@@ -228,7 +225,7 @@
   height: 100%;
   flex-direction: column;
 }
-.split_screen_text_uniq h1 {
+.split_screen_text_uniq h2 {
   font-size: 3.5em;
 }
 
