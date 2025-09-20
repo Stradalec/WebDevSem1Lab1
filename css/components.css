@@ -238,7 +238,7 @@
   color: #000;
   font-size: 1.2em;
 }
-.split_screen_text h3{
+.split_screen_text h3 {
   color: #000;
   font-size: 1.5em;
   font-family: Roboto;
@@ -274,7 +274,7 @@
     gap: 1vh;
   }
 
-  .split_screen_noflex picture{
+  .split_screen_noflex picture {
     width: 100vw;
     height: auto;
   }
@@ -321,4 +321,3 @@
   align-items: center;
   gap: 1vh;
 }
-
