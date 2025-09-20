@@ -196,9 +196,9 @@
 
 .split_screen_right {
   flex-direction: row;
-  justify-content: right;
+  justify-content: flex-end;
   height: 10vh;
-  width: 40vw;
+  width: 35vw;
   gap: 1vw;
 }
 .split_screen_right img {
@@ -316,5 +316,9 @@
   margin: 0;
   gap: 0.5vw;
 }
-
+.author_block {
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
 
