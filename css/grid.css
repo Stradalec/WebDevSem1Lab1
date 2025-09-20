@@ -27,7 +27,8 @@
 }
 
 .item,
-.item_row {
+.item_row,
+.item_left_align {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -37,6 +38,21 @@
   height: 70vh;
   overflow: hidden;
   gap: 1vw;
+}
+
+.item_left_align {
+  padding-left: 8vw;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 30vw;
+  height: 100%;
+}
+
+.item_left_align img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0.15em;
 }
 
 .item_row {
