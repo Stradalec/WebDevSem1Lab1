@@ -3,10 +3,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2vh 8vw;
+  padding: 15px 150px;
 }
 .space {
-  height: 8vh;
+  height: 80px;
 }
 
 .navigation_menu,
@@ -16,11 +16,11 @@ footer {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 5vh;
+  gap: 50px;
 }
 .navigation_menu_list {
   justify-content: center;
 }
 .navigation_menu_icons {
-  gap: 1vh;
+  gap: 15px;
 }

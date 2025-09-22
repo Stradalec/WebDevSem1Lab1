@@ -63,12 +63,12 @@
 }
 
 .item_row_button {
-  padding-left: 8vw;
+  padding-left: 150px;
   margin: 0;
   display: flex;
   flex-direction: row;
-  width: 30vw;
-  height: 10vh;
+  width: 30opx;
+  height: 100px;
   overflow: hidden;
   align-items: center;
 }
@@ -76,8 +76,8 @@
 .item_row_button img {
   object-fit: contain;
   display: flex;
-  width: 5vw;
-  height: 5vh;
+  width: 75px;
+  height: 50px;
   overflow: hidden;
   border-radius: 0.15em;
 }
@@ -86,12 +86,12 @@
 .grid_narrow img {
   object-fit: cover;
   display: flex;
-  width: 20vw;
-  height: 60vh;
+  width: 400px;
+  height: 500px;
   overflow: hidden;
   border-radius: 0.15em;
 }
 .grid_row img {
-  width: 15vw;
-  height: 15vh;
+  width: 250px;
+  height: 150px;
 }
