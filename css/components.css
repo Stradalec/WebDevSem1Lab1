@@ -32,7 +32,8 @@
 .split_screen_second,
 .split_screen_right,
 .split_screen_text,
-.split_screen_noflex_custom {
+.split_screen_noflex_custom,
+.split_screen_nopadding_small {
   padding-left: 150px;
   display: flex;
   text-align: left;
@@ -219,7 +220,7 @@
   flex-direction: column;
 }
 .split_screen_text_uniq {
-  padding-right: 150px;
+  padding-right: 130px;
   margin-left: -75px;
   width: 600px;
   height: 100%;
@@ -305,7 +306,7 @@
 .picture_column {
   flex-direction: column;
   padding-top: 15px;
-  width: 400px;
+  width: 450px;
   height: 600px;
   display: flex;
   align-items: flex-start;
@@ -317,4 +318,15 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+}
+.split_screen_nopadding_small {
+  padding-left: 0;
+    padding-right: 0;
+    font-size: 1em;
+    gap: 8px;
+}
+
+.split_screen_nopadding_small img{
+  width: 100px;
+  height: 100px;
 }
