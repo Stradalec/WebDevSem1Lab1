@@ -228,6 +228,7 @@
 }
 .split_screen_text_uniq h2 {
   font-size: 3.5em;
+  margin-bottom: 100px;
 }
 
 .split_screen_text a,
@@ -307,7 +308,7 @@
   flex-direction: column;
   padding-top: 15px;
   width: 450px;
-  height: 600px;
+  height: 500px;
   display: flex;
   align-items: flex-start;
   font-size: 1em;
