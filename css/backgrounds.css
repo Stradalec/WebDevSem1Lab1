@@ -1,0 +1,33 @@
+.main_background,
+.join_background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  margin-bottom: 100px;
+}
+
+.main_background {
+  background-image: url("../assets/images/background.jpg");
+  height: 80vh;
+}
+
+
+@media (max-width: 480px) {
+  .main_background {
+    background-image: url("../assets/images/background.jpg");
+    height: 50vh;
+  }
+}
+
+.join_background {
+  background-image: url("../assets/images/join-bg.png");
+  height: 110vh;
+}
+
+@media (max-width: 480px) {
+  .join_background {
+    height: 70vh;
+  }
+}

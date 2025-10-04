@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/backgrounds.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <picture class="space">
+        <source media="(min-width: 360)" srcset="path" />
+        <img src="assets/vector/header-logo.svg" />
+      </picture>
+      <nav class="navigation_menu">
+        <ul class="navigation_menu_list">
+          <li><a href="#">Home</a></li>
+          <li><a href="blog.html">Story</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <section class="navigation_menu_icons">
+          <picture class="navigation_menu_icons">
+            <source media="(min-width: 360 px)" srcset="path" />
+            <img src="assets/vector/header-search-icon.svg" />
+          </picture>
+          <picture class="navigation_menu_icons">
+            <source media="(min-width: 360 px)" srcset="path" />
+            <img src="assets/vector/header-profile-icon.svg" />
+          </picture>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section class="main_background">
+        <h2 class="split_screen_header">
+          Let’s talk about <br />
+          your next trip!
+        </h2>
+        <p class="split_screen">
+          Share your favorite travel destination and we will <br />
+          feature it in our next blog!
+        </p>
+        <div class="item_row_button">
+          <button type="button" value="button" class="split_screen_button">
+            Share your story
+          </button>
+          <picture>
+            <source media="(min-width: 240 px)" srcset="path" />
+          </picture>
+          <img src="assets/vector/hero-player.svg" alt="Watch highlights" />
+          <figcaption>Watch highlights</figcaption>
+        </div>
+      </section>
+      <section class="split_screen">
+        <picture>
+          <source media="(min-width: 360 px)" srcset="path" />
+          <img src="assets/images/image.jpg" alt="Watch highlights" />
+        </picture>
+        <div>
+          <a class="split_screen"> Featured Destination</a>
+          <h2 class="split_screen_header_smaller">Our swiss adventure blog</h2>
+          <p class="split_screen">
+            Visiting the swiss alps? Want to know the requirements on <br />
+            travelling to Switzerland during the pandemic? Our blog might help!
+          </p>
+          <div class="split_screen">
+            <picture class="navigation_menu_icons">
+              <source media="(min-width: 360 px)" srcset="path" />
+              <img
+                src="assets/vector/video_player.svg"
+                alt="Watch highlights"
+              />
+            </picture>
+            <p class>Watch Now</p>
+          </div>
+        </div>
+      </section>
+      <section class="screen_center">
+        <a class="screen_center"> Join our adventures</a>
+      </section>
+      <section class="screen_center">
+        <h2 class="screen_center_head">Discover the world with us</h2>
+      </section>
+      <section class="grid">
+        <div class="item">
+          <picture>
+            <source media="(min-width: 10 px)" srcset="path" />
+            <img src="assets/images/rowImage.jpg" alt="Element 1" />
+          </picture>
+          <h2 class="screen_center_header_smaller">Iceland</h2>
+          <p class="screen_center_colored">Discover</p>
+        </div>
+        <div class="item">
+          <picture>
+            <source media="(min-width: 10 px)" srcset="path" />
+            <img src="assets/images/rowImage2.jpg" alt="Element 2" />
+          </picture>
+          <h2 class="screen_center_header_smaller">Italy</h2>
+          <p class="screen_center_colored">Discover</p>
+        </div>
+        <div class="item">
+          <picture>
+            <source media="(min-width: 10 px)" srcset="path" />
+            <img src="assets/images/rowImage3.jpg" alt="Element 3" />
+          </picture>
+          <h2 class="screen_center_header_smaller">Dubai</h2>
+          <p class="screen_center_colored">Discover</p>
+        </div>
+        <div class="item">
+          <picture>
+            <source media="(min-width: 10 px)" srcset="path" />
+            <img src="assets/images/rowImage4.jpg" alt="Element 3" />
+          </picture>
+          <h2 class="screen_center_header_smaller">Patagonia</h2>
+          <p class="screen_center_colored">Discover</p>
+        </div>
+      </section>
+      <section class="join_background">
+        <div class="screen_center">
+          <p class="screen_center_colored">Let’s build a community</p>
+        </div>
+        <div class="screen_center">
+          <h2 class="screen_center_head">Join our next destination</h2>
+        </div>
+        <form action="formHandler.js" autocomplete="on" class="screen_center">
+          <fieldset class="split_screen_noflex">
+            <h2 class="split_screen_header_smaller_nopadding">
+              Share your travels
+            </h2>
+            <p class="split_screen_noflex">
+              Suggest a new travel destination that you want to see and we will
+              <br />
+              feature it in our blog.
+            </p>
+            <br />
+            <input
+              type="text"
+              placeholder="Destination name"
+              class="form_element"
+            />
+            <br />
+            <select class="form_element">
+              <option value="Country or Destination">
+                Country or Destination
+              </option>
+              <option value="Something else">Something else</option>
+            </select>
+            <br />
+            <input type="text" placeholder="Your name" class="form_element" />
+            <br />
+            <select class="form_element">
+              <option value="Shooting Category">Shooting Category</option>
+              <option value="Something else">Something else</option>
+            </select>
+            <br />
+            <textarea rows="5" cols="45" name="text" class="form_element">
+Describe what kind of photos you want to focus on </textarea
+            >
+            <br />
+            <input
+              type="submit"
+              ,
+              value="Submit"
+              class="split_screen_button_alternative"
+            />
+            <br />
+          </fieldset>
+        </form>
+      </section>
+      <section class="screen_center">
+        <p class="screen_center_colored">Catch up to our posts</p>
+      </section>
+      <section class="screen_center">
+        <h2 class="screen_center_head">Recent story entries</h2>
+      </section>
+      <section class="split_screen_second">
+        <div>
+          <picture>
+            <source media="(min-width: 360 px)" srcset="path" />
+            <img src="assets/images/mountain.jpg" alt="mountain" />
+          </picture>
+          <div class="split_screen_nopadding">
+            <div>
+              <h2 class="split_screen_header_smaller_nopadding">
+                Zermatt, Switzerland
+              </h2>
+              <p class="split_screen_nopadding">
+                Marvel on the beauty of the iconic Matterhorn. Find the best
+                places <br />
+                to stay that has the best views of this peak...
+              </p>
+            </div>
+            <picture class="split_screen_nopadding_small">
+              <source media="(min-width: 360 px)" srcset="path" />
+              <img
+                src="assets/vector/video_player.svg"
+                alt="Watch highlights"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="grid_row">
+          <div class="item_row">
+            <picture>
+              <source media="(min-width: 10 px)" srcset="path" />
+              <img src="assets/images/vertical.jpg" alt="Element 1" />
+            </picture>
+            <div>
+              <h2 class="screen_center_header_smaller">Tuscany, Italy</h2>
+              <p class="split_screen_noflex">
+                The amazing Tuscany is home to famous Renaissance art and
+                architecture and a vast scenic landscape. view full blog...
+              </p>
+            </div>
+          </div>
+          <div class="item_row">
+            <picture>
+              <source media="(min-width: 10 px)" srcset="path" />
+              <img src="assets/images/vertical2.jpg" alt="Element 2" />
+            </picture>
+            <div>
+              <h2 class="screen_center_header_smaller">Kyoto, Japan</h2>
+              <p class="split_screen_noflex">
+                Kyoto is well known for its temples, gardens, Shinto shrines and
+                wooden houses. It’s time to visit tokyo. view full blog...
+              </p>
+            </div>
+          </div>
+          <div class="item_row">
+            <picture>
+              <source media="(min-width: 10 px)" srcset="path" />
+              <img src="assets/images/vertical3.jpg" alt="Element 3" />
+            </picture>
+            <div>
+              <h2 class="screen_center_header_smaller">
+                Lofoten Islands, Norway
+              </h2>
+              <p class="split_screen_noflex">
+                Featuring razor-sharp peaks housing the arctic landscape. This
+                astonishing island is perfect for your next postcard. view full
+                blog...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="navigation_menu">
+      <p>&copy; 2022, Talking Travel. All Rights Reserved.</p>
+      <nav class="navigation_menu">
+        <ul class="navigation_menu_list">
+          <li><a href="#">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
